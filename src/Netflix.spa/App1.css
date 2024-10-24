@@ -1,0 +1,35 @@
+
+.select-image{
+    background: url('../Netflix.spa/NetbackImg.jpg');
+    background-size: cover;
+    overflow: hidden;
+}
+
+#select-header{
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    text-align: center;
+    animation: change 0.10s;
+}
+#input-select{
+    background: transparent;
+    outline: none;
+    border:2px gray solid;
+    width: 500px;
+}
+.select-sign{
+    display: flex;
+    justify-content: space-around;
+}
+option{
+    color: black;
+}
+
+@keyframes change{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
